@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: black;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  margin-top: 20px;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 30px;
+}
+.nav-txt {
+  text-transform: uppercase;
+}
+.nav-pic {
+  background-color: black;
+  color: white;
+  padding: 13px;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  border-color: white;
+}
+
+.nav-menu {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 20px;
+}
+.section_1 {
+  color: white;
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 570px;
+}
+.section_1_title {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.section_1_niche {
+  font-size: 1.875rem;
+  line-height: 1.3;
+  color: white;
+
+  max-width: 800px;
+  text-align: center; /* Optional: centers the text */
+  padding-bottom: 60px;
+}
+.section_1_button {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section_1_buttons {
+  padding: 10px 40px 10px 40px;
+}
+.section_1_1 {
+  color: lightgreen;
+}
+.section_1_2 {
+  color: #79bed4;
+}
+.section_2 {
+  background-color: white;
+}

@@ -127,12 +127,12 @@ body {
 .section_2_def {
   text-align: center;
   margin-top: 20px;
-  font-size: 18px;
+  font-size: clamp(1rem, 4vw, 1.25rem);
   font-weight: 700;
 }
 .section_2_content {
   margin-top: 20px;
-  font-size: 14px;
+  font-size: clamp(0.75rem, 2vw, 1rem);
   color: rgb(100, 116, 139);
   max-width: 600px;
   margin: 0 auto;
@@ -256,6 +256,9 @@ body {
 .input_message {
   padding: 0px 10px 180px;
 }
+.section_5_text {
+  font-size: clamp(0.75rem, 1vw, 2rem);
+}
 @media (max-width: 805px) {
   .section_1_button {
     flex-direction: column;
@@ -277,6 +280,11 @@ body {
     transform: translateX(0);
     position: fixed;
     right: 20px;
+  }
+}
+@media (max-width: 350px) {
+  .section_2_content {
+    text-align: left;
   }
 }
 @media (max-width: 250px) {
